@@ -1,6 +1,12 @@
 import { TbArrowRight } from "react-icons/tb";
- 
-export default function ProductHeader({ product }) {
+import { StaticImageData } from "next/image";
+ type Product = {
+  image: StaticImageData;
+  title: string;
+  price: number;
+}; 
+
+export default function ProductHeader({ product }: { product: Product }) {
   
 console.log(product)
 
