@@ -19,11 +19,11 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-[#9F9F9F]">Links</h3>
             <ul className="space-y-2 text-black">
-              <li><a href="#" className="text-sm hover:underline">My Account</a></li>
-              <li><a href="#" className="text-sm hover:underline">Login / Register</a></li>
-              <li><a href="#" className="text-sm hover:underline">Cart</a></li>
+              <li><a href="/account" className="text-sm hover:underline">My Account</a></li>
+              <li><a href="/account" className="text-sm hover:underline">Login / Register</a></li>
+              <li><a href="/cart" className="text-sm hover:underline">Cart</a></li>
               <li><a href="#" className="text-sm hover:underline">Wishlist</a></li>
-              <li><a href="#" className="text-sm hover:underline">Shop</a></li>
+              <li><a href="/shop" className="text-sm hover:underline">Shop</a></li>
             </ul>
           </div>
 
@@ -61,7 +61,7 @@ const Footer = () => {
         
         {/* Copyright */}
         <div className="mt-8 text-start border-t border-gray-700 pt-4 text-sm">
-          <p className='text-[#9F9F9F]' >© Copyright Rimel 2022. All rights reserved</p>
+          <p className='text-[#9F9F9F]' >2022 Meubel House. All rights reverved</p>
         </div>
       </div>
     </footer>
