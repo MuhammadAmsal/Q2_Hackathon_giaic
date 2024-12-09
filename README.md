@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ 
+Project Overview
 
-## Getting Started
+This project is a Frontend E-commerce website built to showcase an intuitive shopping platform. The website includes multiple pages to provide users with a smooth and engaging shopping experience. It uses dynamic routing to navigate between pages efficiently and features a well-structured UI for exploring products, viewing details, managing the cart, and proceeding to checkout.
 
-First, run the development server:
+Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Home Page
+A welcoming landing page introducing users to the website.
+Highlights featured products or promotional content.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Shop Page
+Lists all available products in an organized layout.
+Allows users to browse products easily.
+Integrated with dynamic routing: clicking on a product opens its detailed view.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Product Detail Page
+Displays comprehensive details about a selected product, including:
+Product images
+Descriptions
+Prices
+Specifications
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. Contact Page
+Provides users with a way to get in touch.
+Includes a form for inquiries or feedback.
 
-## Learn More
+5. Account Page
+Login: Allows existing users to sign in.
+Signup: Lets new users create an account.
 
-To learn more about Next.js, take a look at the following resources:
+6. About Page
+Provides information about the website, its purpose, or its creators.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+7. Cart Page
+Displays products added to the shopping cart.
+Allows users to review and manage their selected items.
+Includes a "Checkout" button for proceeding to the next step.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+8. Checkout Page
+Collects user information, such as:
+Billing address
+Payment details
+Completes the shopping process.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
