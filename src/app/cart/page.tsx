@@ -18,12 +18,12 @@ export default function page() {
       <table className="w-full mx-auto">
         <thead>
           <tr className="bg-[#FFF9E5] regular-18 sm:regular-22 text-start py-12 ">
-            <th className="p-1 py-2">Products</th>
+            <th className="p-1 max-sm:text-[6px] py-2">Products</th>
             
-            <th className="p-1 py-2">Price</th>
-            <th className="p-1 py-2">Quantity</th>
-            <th className="p-1 py-2">Sub Total</th>
-            <th className="p-1 py-2">Remove</th>
+            <th className="p-1 max-sm:text-[6px] py-2">Price</th>
+            <th className="p-1 max-sm:text-[6px] py-2">Quantity</th>
+            <th className="p-1 max-sm:text-[6px] py-2">Sub Total</th>
+            <th className="p-1 max-sm:text-[6px] py-2">Remove</th>
           </tr>
         </thead>
         <tbody>
@@ -40,12 +40,12 @@ export default function page() {
                     />
                   </td>
                  
-                  <td>Rs:320000</td>
+                  <td max-sm:text-[8px] >Rs:320000</td>
                   
-                  <td className="w-16 h-16 bg-white">1</td>
-                  <td>Rs: 320000</td>
+                  <td className="w-16 h-16 bg-white max-sm:text-[8px]">1</td>
+                  <td cassName="max-sm:text-[8px]" >Rs: 320000</td>
                   <td>
-                    <div className="bold-22 pl-14">
+                    <div className="bold-22 pl-14 max-sm:text-[8px]">
                       <TbTrash
                         className="cursor-pointer"
                       
@@ -59,19 +59,19 @@ export default function page() {
        {/* cart details */}
       <div className="flex flex-col gap-20 my-16 p-8 md:flex-row rounded-md bg-[#FFF9E5] w-full max-w-[666px]" >
         <div className="flex flex-col gap-10" >
-        <h4 className="bold-20 text-xl font-bold" >Cart Total</h4>
+        <h4 className="bold-20 text-xl font-bold max-sm:text-sm" >Cart Total</h4>
          <div>
           <div className="flexBetween py-4" >
-            <h4 className="medium-16 inline text-xl font-md" >Subtotal:</h4>
-            <h4 className="text-gray-30  inline ml-20 text-xl text-[#9F9F9F]" > Rs: 320000</h4>
+            <h4 className="medium-16 inline text-xl font-md max-sm:text-sm" >Subtotal:</h4>
+            <h4 className="text-gray-30  inline ml-20 text-xl text-[#9F9F9F] max-sm:text-sm" > Rs: 320000</h4>
           </div>
           <hr/>
           <div className="flexBetween py-4" >
-            <h4 className="bold-18 inline text-xl font-md" >Total:</h4>
-            <h4 className="inline text-xl text-[#B88E2F] ml-28" > Rs: 320000</h4>
+            <h4 className="bold-18 inline text-xl font-md max-sm:text-sm" >Total:</h4>
+            <h4 className="inline text-xl text-[#B88E2F] ml-28 max-sm:text-sm" > Rs: 320000</h4>
           </div>
          </div>
-       <Link href="/checkout"> <button className=" medium-15 border text-black border-black bg-green-90 px-7 py-3  hover:text-white transition-all hover:bg-black rounded-full w-44" >Checkout</button></Link> 
+       <Link href="/checkout"> <button className=" medium-15 border text-black border-black bg-green-90 px-7 py-3  hover:text-white transition-all hover:bg-black rounded-full w-44 max-sm:text-sm max-sm:px-5 max-sm:py-2" >Checkout</button></Link> 
          
         </div>
       </div>
