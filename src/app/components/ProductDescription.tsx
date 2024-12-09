@@ -1,14 +1,14 @@
 export default function ProductDescription() {
     return (
       <div className="mt-20" >
-        <div className="flex gap-3 mb-4" >
-          <button className="medium-15 border border-green-90 bg-black px-7   text-white transition-all rounded-none !text-xs !py-[6px] w-36">
+        <div className="flex gap-3 mb-4 max-sm:gap-1" >
+          <button className="medium-15 border border-green-90 bg-black px-7  max-sm:px-3  text-white transition-all rounded-none !text-xs !py-[6px] w-36">
             Description
           </button>
-          <button className="medium-15 border border-green-90 bg-transparent px-7 text-green-90 transition-all hover:bg-black hover:text-white  rounded-none !text-xs !py-[6px] w-36">
+          <button className="medium-15 border border-green-90 bg-transparent px-7  max-sm:px-3 text-green-90 transition-all hover:bg-black hover:text-white  rounded-none !text-xs !py-[6px] w-36">
             Additional Information 
           </button>
-          <button className="medium-15 border border-green-90 bg-transparent px-7  text-green-90 transition-all hover:bg-black hover:text-white rounded-none !text-xs !py-[6px] w-36">
+          <button className="medium-15 border border-green-90 bg-transparent px-7  max-sm:px-3 text-green-90 transition-all hover:bg-black hover:text-white rounded-none !text-xs !py-[6px] w-36">
             Reviews
           </button>
         </div>
